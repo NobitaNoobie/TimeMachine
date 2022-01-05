@@ -1,4 +1,4 @@
-## *Given a binary array nums[  ] of size N. The task is to arrange the array in increasing order.*
+## *Given a binary array nums[  ] of size n. The task is to arrange the array in increasing order.*
 Note: The binary array contains only 0  and 1.
 
 1️⃣0️⃣1️⃣1️⃣0️⃣ ---> 0️⃣0️⃣1️⃣1️⃣1️⃣ 
