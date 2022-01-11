@@ -6,3 +6,4 @@ Takes you back in time to revisit certain problems.
 - [x] Rearrange binary array
 - [ ] GCD
 - [x] Catalan Numbers
+- [x] Stacks and Queues
