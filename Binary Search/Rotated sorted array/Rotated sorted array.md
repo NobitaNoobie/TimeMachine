@@ -35,7 +35,7 @@ mid = 3 ; nums[mid] = 4️⃣
 
 Conclusions from the first rotation :
 - we get an intuition that if (nums[mid] >= nums[end]) is True, we can move right to search for the minimum element
-- so if(nums[mid] >= nums[end]) { start = mid + 1; }. I want to however test this observation with a few more rotations.
+- so ``` if(nums[mid] >= nums[end]) { start = mid + 1; }```. I want to however test this observation with a few more rotations.
 - we need to stop when start == end
 - we are somewhat targetting to return nums[start]
 
