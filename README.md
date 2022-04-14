@@ -7,3 +7,4 @@ Takes you back in time to revisit certain problems.
 - [ ] GCD
 - [x] Catalan Numbers
 - [x] Stacks and Queues
+- [x] Binary Search
