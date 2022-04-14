@@ -7,7 +7,7 @@
 ## Approach:
 
 Let us take a standard array nums[ ] = 0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣. We will rotate the array 1 to 7 times, and try to find an algorithm that fits all the 0 to 7 rotations. 
-1.  *Rotated once*:  1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣0️⃣
+### 1.  *Rotated once*:  1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣0️⃣
 
 We have to find a solution that fits in O(log n) time. Moreover the array given is said to be somewhat sorted. The intuition that should follow with the given constraints is that we have to perform binary search in some way. But we still do not know when to move left and right, i.e., which half to discard. 
 
@@ -39,4 +39,4 @@ Conclusions from the first rotation :
 - we need to stop when start == end
 - we are somewhat targetting to return nums[start]
 
-2. *Rotated twice*: 2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣0️⃣1️⃣
+### 2. *Rotated twice*: 2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣0️⃣1️⃣
