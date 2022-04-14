@@ -9,6 +9,6 @@ Clarifying questions to ask:
 
 ## Approach
 For array : 4️⃣5️⃣6️⃣7️⃣0️⃣1️⃣2️⃣
-We are well equipped to find the pivot element, as discussed previously (). Observe that the arrays (nums[pivot_index] to nums[n-1]) and (nums[0] to nums[pivot_index -1]) are indivisually sorted once. Apply Binary search indivisually on the sorted arrays to find the target element.
+We are well equipped to find the pivot element, as discussed previously (https://github.com/NobitaNoobie/TimeMachine/blob/main/Binary%20Search/Rotated%20sorted%20array/Rotated%20sorted%20array.java). Observe that the arrays (nums[pivot_index] to nums[n-1]) and (nums[0] to nums[pivot_index -1]) are indivisually sorted once. Apply Binary search indivisually on the sorted arrays to find the target element.
 
 One of the array segments will return the position of the *target*, the other will return -1. If the *target* is not present in either half, both halves return -1.
